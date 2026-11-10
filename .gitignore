@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Chỉ giữ 1 file CSV mẫu; dữ liệu crawl đầy đủ tự tạo lại bằng crawler.py
+output/*
+!output/demo_terminal.csv

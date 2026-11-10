@@ -1,0 +1,144 @@
+<html><head><meta charset=utf-8><style>pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #49483e }
+.highlight { background: #272822; color: #F8F8F2 }
+.highlight .c { color: #959077 } /* Comment */
+.highlight .err { color: #ED007E; background-color: #1E0010 } /* Error */
+.highlight .esc { color: #F8F8F2 } /* Escape */
+.highlight .g { color: #F8F8F2 } /* Generic */
+.highlight .k { color: #66D9EF } /* Keyword */
+.highlight .l { color: #AE81FF } /* Literal */
+.highlight .n { color: #F8F8F2 } /* Name */
+.highlight .o { color: #FF4689 } /* Operator */
+.highlight .x { color: #F8F8F2 } /* Other */
+.highlight .p { color: #F8F8F2 } /* Punctuation */
+.highlight .ch { color: #959077 } /* Comment.Hashbang */
+.highlight .cm { color: #959077 } /* Comment.Multiline */
+.highlight .cp { color: #959077 } /* Comment.Preproc */
+.highlight .cpf { color: #959077 } /* Comment.PreprocFile */
+.highlight .c1 { color: #959077 } /* Comment.Single */
+.highlight .cs { color: #959077 } /* Comment.Special */
+.highlight .gd { color: #FF4689 } /* Generic.Deleted */
+.highlight .ge { color: #F8F8F2; font-style: italic } /* Generic.Emph */
+.highlight .ges { color: #F8F8F2; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.highlight .gr { color: #FF4689 } /* Generic.Error */
+.highlight .gh { color: #F8F8F2 } /* Generic.Heading */
+.highlight .gi { color: #A6E22E } /* Generic.Inserted */
+.highlight .go { color: #66D9EF } /* Generic.Output */
+.highlight .gp { color: #FF4689; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { color: #F8F8F2; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #959077 } /* Generic.Subheading */
+.highlight .gt { color: #66D9EF } /* Generic.Traceback */
+.highlight .kc { color: #66D9EF } /* Keyword.Constant */
+.highlight .kd { color: #66D9EF } /* Keyword.Declaration */
+.highlight .kn { color: #FF4689 } /* Keyword.Namespace */
+.highlight .kp { color: #66D9EF } /* Keyword.Pseudo */
+.highlight .kr { color: #66D9EF } /* Keyword.Reserved */
+.highlight .kt { color: #66D9EF } /* Keyword.Type */
+.highlight .ld { color: #E6DB74 } /* Literal.Date */
+.highlight .m { color: #AE81FF } /* Literal.Number */
+.highlight .s { color: #E6DB74 } /* Literal.String */
+.highlight .na { color: #A6E22E } /* Name.Attribute */
+.highlight .nb { color: #A6E22E } /* Name.Builtin */
+.highlight .nc { color: #A6E22E } /* Name.Class */
+.highlight .no { color: #66D9EF } /* Name.Constant */
+.highlight .nd { color: #A6E22E } /* Name.Decorator */
+.highlight .ni { color: #F8F8F2 } /* Name.Entity */
+.highlight .ne { color: #A6E22E } /* Name.Exception */
+.highlight .nf { color: #A6E22E } /* Name.Function */
+.highlight .nl { color: #F8F8F2 } /* Name.Label */
+.highlight .nn { color: #F8F8F2 } /* Name.Namespace */
+.highlight .nx { color: #A6E22E } /* Name.Other */
+.highlight .py { color: #F8F8F2 } /* Name.Property */
+.highlight .nt { color: #FF4689 } /* Name.Tag */
+.highlight .nv { color: #F8F8F2 } /* Name.Variable */
+.highlight .ow { color: #FF4689 } /* Operator.Word */
+.highlight .pm { color: #F8F8F2 } /* Punctuation.Marker */
+.highlight .w { color: #F8F8F2 } /* Text.Whitespace */
+.highlight .mb { color: #AE81FF } /* Literal.Number.Bin */
+.highlight .mf { color: #AE81FF } /* Literal.Number.Float */
+.highlight .mh { color: #AE81FF } /* Literal.Number.Hex */
+.highlight .mi { color: #AE81FF } /* Literal.Number.Integer */
+.highlight .mo { color: #AE81FF } /* Literal.Number.Oct */
+.highlight .sa { color: #E6DB74 } /* Literal.String.Affix */
+.highlight .sb { color: #E6DB74 } /* Literal.String.Backtick */
+.highlight .sc { color: #E6DB74 } /* Literal.String.Char */
+.highlight .dl { color: #E6DB74 } /* Literal.String.Delimiter */
+.highlight .sd { color: #E6DB74 } /* Literal.String.Doc */
+.highlight .s2 { color: #E6DB74 } /* Literal.String.Double */
+.highlight .se { color: #AE81FF } /* Literal.String.Escape */
+.highlight .sh { color: #E6DB74 } /* Literal.String.Heredoc */
+.highlight .si { color: #E6DB74 } /* Literal.String.Interpol */
+.highlight .sx { color: #E6DB74 } /* Literal.String.Other */
+.highlight .sr { color: #E6DB74 } /* Literal.String.Regex */
+.highlight .s1 { color: #E6DB74 } /* Literal.String.Single */
+.highlight .ss { color: #E6DB74 } /* Literal.String.Symbol */
+.highlight .bp { color: #A6E22E } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #A6E22E } /* Name.Function.Magic */
+.highlight .vc { color: #F8F8F2 } /* Name.Variable.Class */
+.highlight .vg { color: #F8F8F2 } /* Name.Variable.Global */
+.highlight .vi { color: #F8F8F2 } /* Name.Variable.Instance */
+.highlight .vm { color: #F8F8F2 } /* Name.Variable.Magic */
+.highlight .il { color: #AE81FF } /* Literal.Number.Integer.Long */ body{margin:0;background:#272822} pre{font:14px Menlo;padding:14px;margin:0}</style></head><body><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="sd">"""</span>
+<span class="linenos"> 2</span><span class="sd">WatchCrawler - Lab03 EC312</span>
+<span class="linenos"> 3</span><span class="sd">Thu thap san pham DONG HO tu 2 san TMDT qua API JSON, xuat file CSV</span>
+<span class="linenos"> 4</span><span class="sd">theo "Mau nhap san pham" cua WooCommerce (tham khao sample_import_product_for_woocommerce.txt).</span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="sd">  - Tiki        : https://tiki.vn/api/personalish/v1/blocks/listings  (danh sach)</span>
+<span class="linenos"> 7</span><span class="sd">                  https://tiki.vn/api/v2/products/&lt;id&gt;                 (chi tiet)</span>
+<span class="linenos"> 8</span><span class="sd">  - WatchStore  : https://www.watchstore.vn/products.json              (Shopify API)</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="sd">Su dung:</span>
+<span class="linenos">11</span><span class="sd">  python crawler.py --site tiki --category 1778 --limit 60</span>
+<span class="linenos">12</span><span class="sd">  python crawler.py --site all --limit 60 --out output/woocommerce_watches.csv</span>
+<span class="linenos">13</span><span class="sd">"""</span>
+<span class="linenos">14</span><span class="kn">import</span><span class="w"> </span><span class="nn">argparse</span>
+<span class="linenos">15</span><span class="kn">import</span><span class="w"> </span><span class="nn">csv</span>
+<span class="linenos">16</span><span class="kn">import</span><span class="w"> </span><span class="nn">html</span>
+<span class="linenos">17</span><span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
+<span class="linenos">18</span><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="linenos">19</span>
+<span class="linenos">20</span><span class="c1"># curl_cffi gia lap TLS fingerprint cua Chrome -&gt; tranh bi Shopify chan (HTTP 429)</span>
+<span class="linenos">21</span><span class="kn">from</span><span class="w"> </span><span class="nn">curl_cffi</span><span class="w"> </span><span class="kn">import</span> <span class="n">requests</span>
+<span class="linenos">22</span>
+<span class="linenos">23</span><span class="n">UA</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "</span>
+<span class="linenos">24</span>      <span class="s2">"(KHTML, like Gecko) Chrome/130.0 Safari/537.36"</span><span class="p">)</span>
+<span class="linenos">25</span><span class="n">SESSION</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">Session</span><span class="p">(</span><span class="n">impersonate</span><span class="o">=</span><span class="s2">"chrome"</span><span class="p">)</span>
+<span class="linenos">26</span><span class="n">SESSION</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">"User-Agent"</span><span class="p">:</span> <span class="n">UA</span><span class="p">,</span> <span class="s2">"Accept"</span><span class="p">:</span> <span class="s2">"application/json"</span><span class="p">})</span>
+<span class="linenos">27</span>
+<span class="linenos">28</span><span class="c1"># Danh muc dong ho tren Tiki (lay tu /api/v2/categories?parent_id=8371)</span>
+<span class="linenos">29</span><span class="n">TIKI_CATEGORIES</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1778</span><span class="p">:</span> <span class="s2">"Đồng hồ nam"</span><span class="p">,</span> <span class="mi">977</span><span class="p">:</span> <span class="s2">"Đồng hồ nữ"</span><span class="p">}</span>
+<span class="linenos">30</span>
+<span class="linenos">31</span><span class="c1"># Cot cua mau nhap WooCommerce (giong file sample)</span>
+<span class="linenos">32</span><span class="n">COLUMNS</span> <span class="o">=</span> <span class="p">[</span>
+<span class="linenos">33</span>    <span class="s2">"ID"</span><span class="p">,</span> <span class="s2">"Type"</span><span class="p">,</span> <span class="s2">"SKU"</span><span class="p">,</span> <span class="s2">"Name"</span><span class="p">,</span> <span class="s2">"Published"</span><span class="p">,</span> <span class="s2">"Is featured?"</span><span class="p">,</span> <span class="s2">"Visibility in catalog"</span><span class="p">,</span>
+<span class="linenos">34</span>    <span class="s2">"Short description"</span><span class="p">,</span> <span class="s2">"Description"</span><span class="p">,</span> <span class="s2">"Tax status"</span><span class="p">,</span> <span class="s2">"In stock?"</span><span class="p">,</span> <span class="s2">"Stock"</span><span class="p">,</span>
+<span class="linenos">35</span>    <span class="s2">"Backorders allowed?"</span><span class="p">,</span> <span class="s2">"Sold individually?"</span><span class="p">,</span> <span class="s2">"Weight(kg)"</span><span class="p">,</span> <span class="s2">"Allow customer reviews?"</span><span class="p">,</span>
+<span class="linenos">36</span>    <span class="s2">"Sale price"</span><span class="p">,</span> <span class="s2">"Regular price"</span><span class="p">,</span> <span class="s2">"Categories"</span><span class="p">,</span> <span class="s2">"Tags"</span><span class="p">,</span> <span class="s2">"Images"</span><span class="p">,</span> <span class="s2">"External URL"</span><span class="p">,</span>
+<span class="linenos">37</span>    <span class="s2">"Position"</span><span class="p">,</span>
+<span class="linenos">38</span>    <span class="s2">"Attribute 1 name"</span><span class="p">,</span> <span class="s2">"Attribute 1 value(s)"</span><span class="p">,</span> <span class="s2">"Attribute 1 visible"</span><span class="p">,</span> <span class="s2">"Attribute 1 global"</span><span class="p">,</span>
+<span class="linenos">39</span>    <span class="s2">"Attribute 2 name"</span><span class="p">,</span> <span class="s2">"Attribute 2 value(s)"</span><span class="p">,</span> <span class="s2">"Attribute 2 visible"</span><span class="p">,</span> <span class="s2">"Attribute 2 global"</span><span class="p">,</span>
+<span class="linenos">40</span>    <span class="s2">"Attribute 3 name"</span><span class="p">,</span> <span class="s2">"Attribute 3 value(s)"</span><span class="p">,</span> <span class="s2">"Attribute 3 visible"</span><span class="p">,</span> <span class="s2">"Attribute 3 global"</span><span class="p">,</span>
+<span class="linenos">41</span><span class="p">]</span>
+<span class="linenos">42</span>
+<span class="linenos">43</span>
+<span class="linenos">44</span><span class="k">def</span><span class="w"> </span><span class="nf">get_json</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">retries</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+<span class="linenos">45</span><span class="w">    </span><span class="sd">"""GET JSON co retry + nghi giua cac lan goi de tranh bi chan (HTTP 429)."""</span>
+<span class="linenos">46</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">retries</span><span class="p">):</span>
+<span class="linenos">47</span>        <span class="k">try</span><span class="p">:</span>
+<span class="linenos">48</span>            <span class="n">r</span> <span class="o">=</span> <span class="n">SESSION</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="linenos">49</span>            <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+<span class="linenos">50</span>                <span class="k">return</span> <span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+<span class="linenos">51</span>            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  ! HTTP </span><span class="si">{</span><span class="n">r</span><span class="o">.</span><span class="n">status_code</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">url</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="linenos">52</span>            <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">429</span><span class="p">:</span>  <span class="c1"># bi gioi han toc do -&gt; cho lau hon</span>
+<span class="linenos">53</span>                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"Retry-After"</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="mi">15</span> <span class="o">*</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+<span class="linenos">54</span>                <span class="k">continue</span>
+<span class="linenos">55</span>        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+<span class="linenos">56</span>            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  ! loi </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="linenos">57</span>        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">1.5</span> <span class="o">*</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+<span class="linenos">58</span>    <span class="k">return</span> <span class="kc">None</span>
+</pre></div>
+</body></html>

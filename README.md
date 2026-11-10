@@ -1,0 +1,25 @@
+# WatchCrawler – Lab03 EC312 (24520176 – Nguyễn Văn Gia Bảo)
+
+Crawler đồng hồ từ **Tiki** (API JSON) và **WatchStore.vn** (Shopify `products.json`), xuất CSV theo mẫu nhập sản phẩm WooCommerce.
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# Giao diện web
+.venv/bin/python app.py                      # mở http://127.0.0.1:5050
+# Dòng lệnh
+.venv/bin/python crawler.py --site all --limit 200 --out output/woocommerce_watches_500.csv
+.venv/bin/python crawler.py --site tiki --category 1778 --limit 50 --keyword casio --min-price 1000000 --max-price 5000000
+```
+Tuỳ chọn: `--site`, `--category`, `--limit`, `--min-price`, `--max-price`, `--keyword`, `--only-sale`, `--max-images`, `--delay`, `--out`.
+
+Kết quả: file CSV trong `output/` → WooCommerce › Sản phẩm › Nhập. Repo kèm 1 file mẫu `output/demo_terminal.csv`; chạy lệnh trên để tạo bộ đầy đủ (150 và 600 sản phẩm).
+
+## Ảnh chụp
+
+| Giao diện web | Kết quả crawl |
+|---|---|
+| ![GUI](screenshots/gui_1_ready.png) | ![Done](screenshots/gui_3_done.png) |
+
+| Nhập vào WooCommerce | Cửa hàng sau khi nhập |
+|---|---|
+| ![Import](screenshots/import_2_mapping.png) | ![Shop](screenshots/import_6_shop500.png) |
