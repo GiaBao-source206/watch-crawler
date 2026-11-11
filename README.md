@@ -18,8 +18,8 @@ Kết quả: file CSV trong `output/` → WooCommerce › Sản phẩm › Nhậ
 
 | Giao diện web | Kết quả crawl |
 |---|---|
-| ![GUI](screenshots/gui_1_ready.png) | ![Done](screenshots/gui_3_done.png) |
+| ![GUI](docs/screenshots/gui_1_ready.png) | ![Done](docs/screenshots/gui_3_done.png) |
 
 | Nhập vào WooCommerce | Cửa hàng sau khi nhập |
 |---|---|
-| ![Import](screenshots/import_2_mapping.png) | ![Shop](screenshots/import_6_shop500.png) |
+| ![Import](docs/screenshots/import_2_mapping.png) | ![Shop](docs/screenshots/import_6_shop500.png) |
