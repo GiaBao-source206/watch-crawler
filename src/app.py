@@ -12,7 +12,7 @@ from flask import Flask, jsonify, request, send_file
 import crawler
 
 app = Flask(__name__)
-OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "output")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 STATE = {"running": False, "logs": [], "items": [], "file": None, "start": 0, "end": 0,
